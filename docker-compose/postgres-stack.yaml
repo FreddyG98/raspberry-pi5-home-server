@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  # Il Motore del Database
+  db:
+    image: postgres:latest
+    container_name: postgres_db
+    restart: always
+    shm_size: 256mb
+    environment:
+      POSTGRES_USER: <IL_TUO_UTENTE>
+      POSTGRES_PASSWORD: <LA_TUA_PASSWORD>
+      POSTGRES_DB: Progetto_1
+    ports:
+      - "5432:5432"
+    volumes:
+      - /mnt/nvme/postgres_data:/var/lib/postgresql
+
+  # L'Interfaccia Web (pgAdmin)
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin_web
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: <LA_TUA_EMAIL>
+      PGADMIN_DEFAULT_PASSWORD: <LA_TUA_PASSWORD>
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
