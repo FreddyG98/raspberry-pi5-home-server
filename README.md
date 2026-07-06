@@ -7,7 +7,7 @@ L'intero ecosistema è orchestrato in container e gestito in modo professionale 
 ---
 
 ## 🗺️ Schema dell'Infrastruttura
-![Architettura di Rete e Container](./assets/schema-infrastruttura.png.png)
+![Architettura di Rete e Container](./assets/schema-infrastruttura.png)
 
 ---
 
