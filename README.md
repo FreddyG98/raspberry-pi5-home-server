@@ -151,5 +151,34 @@ services:
 
 volumes:
   model-cache:
+
 ```
+
+## 👤 Autore
+
+**FreddyG98**
+
+Data Analyst certificato Microsoft:
+
+* Microsoft Certified: Azure Fundamentals (**AZ-900**)
+* Microsoft Certified: Azure Data Fundamentals (**DP-900**)
+
+Progetto sviluppato come dimostrazione pratica di:
+
+```text
+Linux Server Administration
+Raspberry Pi Infrastructure Setup
+Headless Server Management via SSH
+Docker & Docker Compose Orchestration
+Container Lifecycle Management with Portainer
+Persistent Volumes and Storage Management
+PostgreSQL Self-Hosted Deployment
+Database Service Configuration
+Private Network Architecture
+Tailscale VPN and Secure Remote Access
+Subnet Router Configuration
+Self-Hosted Media Infrastructure
+Backup, Data Ingestion and Migration Workflows
+Fault Tolerance and Automatic Service Recovery
+Infrastructure Troubleshooting and Technical Documentation
 ```
